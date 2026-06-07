@@ -34,6 +34,7 @@ try {
         GenerateObjectOptions::make()
             ->withPrompt('Extract information from: Bob is a 45-year-old engineer who loves coding, chess, and gardening.')
             ->withSchema($schema)
+            ->withMode(\LLMesh\Core\Generators\OutputMode::TOOL_MODE)
     );
 
     echo "Object parsing succeeded!\n";

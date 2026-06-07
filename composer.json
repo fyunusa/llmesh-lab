@@ -1,36 +1,6 @@
 {
     "name": "llmesh/lab",
     "description": "Test lab for LLMesh",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../llmesh",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../llmesh-anthropic",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../llmesh-openai",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../llmesh-laravel",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "require": {
         "llmesh/core": "*@dev",
         "llmesh/anthropic": "*@dev",
